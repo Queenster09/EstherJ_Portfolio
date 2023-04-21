@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    text-align: center; /* it align evrything inside the body in center unless their "width is set"*/
+    font-family: 'Merriweather',serif;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #424874;
+    border-width: 5px;
+    width: 2%;
+}
+/*text styles*/
+
+h1{
+    color: #F4EEFF;
+    margin: 0 auto 0 auto;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 2rem;
+}
+
+h2{
+    color: #424874;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.self-desc{
+    color: #F4EEFF;
+    padding-top: 2%;
+    padding-bottom: 10px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.pbot{
+    color: #EAF6F6;
+    font-size: 0.7rem;
+    padding: 20px 0;
+}
+
+p{
+    line-height: 2; /* its like Line spacing in M.Word, it set the space 
+    between line/per line's of the paragraph */
+}
+
+a{
+    /*color: #424874;*/
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+ }
+ 
+/* a:hover{
+     color: #eaf6f6;
+ }*/
+
+ .nav-link{
+    color: white;
+ }
+
+.footer-link{
+    color: #424874;
+    font-size: 15px;
+}
+
+.pmid{
+    width: 30%;
+    margin: auto auto 50px;
+}
+
+.code-skill-desc{
+    /*clear: left; /* it prevent wripping itself with the item in right*/
+    text-align: justify;
+    }
+    
+.music-skill-desc{
+    /*clear: right; /* it prevent wripping itself with the item in right*/
+    text-align: justify;
+}
+.pasta-skill-desc{
+    /*clear: right; /* it prevent wripping itself with the item in right*/
+    text-align: justify;
+}
+.cam-skill-desc{
+    /*clear: right; /* it prevent wripping itself with the item in right*/
+    text-align: justify;
+}
+
+.vid-skill-desc{
+    /*clear: right; /* it prevent wripping itself with the item in right*/
+    text-align: justify;
+}
+
+/*div styles*/
+.Header{
+    background-color: #424874;
+    position: relative;
+   
+}
+.d-flex{
+    padding-right: 30px;
+}
+
+.dtop{
+    background-color: #424874;
+    position: relative;
+    padding: 100px;
+}
+
+.middle-container{
+    margin: 100px auto;
+}
+
+.dbot{
+    background-color: #424874;
+    padding-bottom: 50px 0 20px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.socialmedia{
+    background-color: #A6B1E1;
+    padding: 50px 0 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+/*images styles*/
+.code-img{
+    width: 25%;
+    float: right;
+    margin-left:30px;
+}
+
+.music-img{
+    width: 25%;
+    float: right;
+    margin-left: 100px;
+}
+
+.pasta-img{
+    width: 25%;
+    float: right;
+    margin-left: 100px;
+}
+
+.camera-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.vid-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*button styles*/
+
+.btn {
+    background: #5C33F6;
+    background-image: -webkit-linear-gradient(top, #D62AD0, #A239EA);
+    background-image: -moz-linear-gradient(top, #D62AD0, #A239EA);
+    background-image: -ms-linear-gradient(top, #D62AD0, #A239EA);
+    background-image: -o-linear-gradient(top, #D62AD0, #A239EA);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #816797;
+    background-image: -webkit-linear-gradient(top, #B983FF, #B8B5FF);
+    background-image: -moz-linear-gradient(top, #B983FF, #B8B5FF);
+    background-image: -ms-linear-gradient(top, #B983FF, #B8B5FF);
+    background-image: -o-linear-gradient(top, #B983FF, #B8B5FF);
+    background-image: linear-gradient(to bottom, #B983FF, #B8B5FF);
+    text-decoration: none;
+  }
