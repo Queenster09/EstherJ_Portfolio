@@ -7,16 +7,14 @@ body{
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-color: #424874;
+    border-color: #2A2F4F;
     border-width: 5px;
     width: 2%;
 }
 /*text styles*/
 
 h1{
-    color: #F4EEFF;
-    margin: 0 auto 0 auto;
-    margin: 50px auto 0 auto;
+    color: #FDE2F3;
     font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
     line-height: 2rem;
@@ -29,10 +27,28 @@ h2{
     font-weight: normal;
 }
 
-.self-desc{
-    color: #F4EEFF;
+.fname{
+    color: #FDE2F3;
     padding-top: 2%;
+    padding-bottom: 0px;
+    font-family: Bebas Neue;
+    font-size: 5rem;
+    align: left;
+}
+.self_desc1{
+    color: #FDE2F3;
+    padding-top: 2%;
+    padding-bottom: 0px;
+    font-family: Bebas Neue;
+    font-size: 4rem;
+}
+
+.self_desc2{
+    color: #FDE2F3;
+    padding-top: 0;
     padding-bottom: 10px;
+    font-family: Bebas Neue;
+    font-size: 4rem;
 }
 
 .contact-message{
@@ -46,13 +62,18 @@ h2{
     padding: 20px 0;
 }
 
+.Subjective{
+    color:#E5BEEC;
+    font-size:1.2rem;
+}
+
 p{
     line-height: 2; /* its like Line spacing in M.Word, it set the space 
     between line/per line's of the paragraph */
 }
 
 a{
-    /*color: #424874;*/
+    /*color: #2A2F4F;*/
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
@@ -67,7 +88,7 @@ a{
  }
 
 .footer-link{
-    color: #424874;
+    color: #2A2F4F;
     font-size: 15px;
 }
 
@@ -101,7 +122,7 @@ a{
 
 /*div styles*/
 .Header{
-    background-color: #424874;
+    background-color: #2A2F4F;
     position: relative;
    
 }
@@ -110,10 +131,38 @@ a{
 }
 
 .dtop{
-    background-color: #424874;
+    background-color: #2A2F4F;
     position: relative;
-    padding: 100px;
+    padding: 50px;
 }
+
+.row_home{
+    display: -webkit-flex;
+  display: flex;
+}
+.clm_left{
+    float="left";
+    display="grid";
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: left;
+}
+
+.clm_right{
+    float="right";
+    display="grid";
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+   
+}
+.profilepic_img{
+ border-radius: 8px;
+ width: 400px
+ 
+}
+
 
 .middle-container{
     margin: 100px auto;
