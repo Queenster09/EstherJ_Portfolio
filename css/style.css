@@ -11,6 +11,19 @@ hr{
     border-width: 5px;
     width: 2%;
 }
+
+.Header{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /*text styles*/
 
 h1{
