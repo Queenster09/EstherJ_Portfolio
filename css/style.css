@@ -12,17 +12,17 @@ hr{
     width: 2%;
 }
 
-.Header{
+#navDropdown{
+
+}
+
+#myHeader, #mynavHeader{
     position: fixed;
     top: 0;
     width: 100%
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+
 
 /*text styles*/
 
@@ -41,7 +41,7 @@ h2{
 }
 
 .fname{
-    color: #FDE2F3;
+    color: #F6E5E5;
     padding-top: 2%;
     padding-bottom: 0px;
     font-family: Bebas Neue;
@@ -49,7 +49,7 @@ h2{
     align: left;
 }
 .self_desc1{
-    color: #FDE2F3;
+    color: #F6E5E5;
     padding-top: 2%;
     padding-bottom: 0px;
     font-family: Bebas Neue;
@@ -57,7 +57,7 @@ h2{
 }
 
 .self_desc2{
-    color: #FDE2F3;
+    color: #F6E5E5;
     padding-top: 0;
     padding-bottom: 10px;
     font-family: Bebas Neue;
@@ -76,7 +76,7 @@ h2{
 }
 
 .Subjective{
-    color:#E5BEEC;
+    color:#F6E5E5;
     font-size:1.2rem;
 }
 
@@ -97,11 +97,11 @@ a{
  }*/
 
  .nav-link{
-    color: white;
+    color: #F6E5E5;
  }
 
 .footer-link{
-    color: #2A2F4F;
+    color: #F6E5E5;
     font-size: 15px;
 }
 
@@ -134,8 +134,8 @@ a{
 }
 
 /*div styles*/
-.Header{
-    background-color: #2A2F4F;
+#myHeader, #mynavHeader{
+    background-color: #352961;
     position: relative;
    
 }
@@ -144,7 +144,7 @@ a{
 }
 
 .dtop{
-    background-color: #2A2F4F;
+    background-color: #352961;
     position: relative;
     padding: 50px;
 }
@@ -182,7 +182,7 @@ a{
 }
 
 .dbot{
-    background-color: #424874;
+    background-color: #352961;
     padding-bottom: 50px 0 20px;
 }
 
@@ -192,7 +192,7 @@ a{
 }
 
 .socialmedia{
-    background-color: #A6B1E1;
+    background-color: #352961;
     padding: 50px 0 20px;
 }
 
@@ -236,11 +236,11 @@ a{
 /*button styles*/
 
 .btn {
-    background: #5C33F6;
-    background-image: -webkit-linear-gradient(top, #D62AD0, #A239EA);
-    background-image: -moz-linear-gradient(top, #D62AD0, #A239EA);
-    background-image: -ms-linear-gradient(top, #D62AD0, #A239EA);
-    background-image: -o-linear-gradient(top, #D62AD0, #A239EA);
+    background: #352961;
+    background-image: -webkit-linear-gradient(top, #FF8DC7, #E5BEEC);
+    background-image: -moz-linear-gradient(top, #FF8DC7, #E5BEEC);
+    background-image: -ms-linear-gradient(top, #FF8DC7, #E5BEEC);
+    background-image: -o-linear-gradient(top, #FF8DC7, #E5BEEC);
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
@@ -253,10 +253,10 @@ a{
   
   .btn:hover {
     background: #816797;
-    background-image: -webkit-linear-gradient(top, #B983FF, #B8B5FF);
-    background-image: -moz-linear-gradient(top, #B983FF, #B8B5FF);
-    background-image: -ms-linear-gradient(top, #B983FF, #B8B5FF);
-    background-image: -o-linear-gradient(top, #B983FF, #B8B5FF);
-    background-image: linear-gradient(to bottom, #B983FF, #B8B5FF);
+    background-image: -webkit-linear-gradient(top, #E5BEEC, #FDE2F3);
+    background-image: -moz-linear-gradient(top, #E5BEEC, #FDE2F3);
+    background-image: -ms-linear-gradient(top, #E5BEEC, #FDE2F3);
+    background-image: -o-linear-gradient(top, #E5BEEC, #FDE2F3);
+    background-image: linear-gradient(to bottom, #E5BEEC, #FDE2F3);
     text-decoration: none;
   }
