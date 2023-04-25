@@ -12,8 +12,15 @@ hr{
     width: 2%;
 }
 
-#navDropdown{
+.dropdown:hover, .dropdown-menu{
+    display:block;
+}
 
+.dropdown{
+    background-color: #352961;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color:#E6B2C6;
 }
 
 #myHeader, #mynavHeader{
@@ -234,6 +241,7 @@ a{
 }
 
 /*button styles*/
+
 
 .btn {
     background: #352961;
